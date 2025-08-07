@@ -9,6 +9,7 @@ func main() {
 		name                    = "Oleks"
 		myFloat         float32 = 3.14
 		myInt           int     = 17
+		myInt32         int32   = 787
 	)
 	fmt.Println("Hello, World!")
 	fmt.Println("Hello, Golang!")
@@ -22,4 +23,5 @@ func main() {
 	fmt.Printf("value: %s, type %T \n", name, name)
 	fmt.Printf("value: %f, type %T \n", myFloat, myFloat)
 	fmt.Printf("value: %d, type %T \n", myInt, myInt)
+	fmt.Printf("Signet Integer (int): %d, type %T \n", myInt32, myInt32)
 }
