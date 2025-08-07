@@ -22,3 +22,4 @@ func main() {
 	fmt.Printf("value: %s, type %T", name, name)
 	fmt.Printf("value: %d, type %T", myFloat, myFloat)
 	fmt.Printf("value: %d, type %T", myInt, myInt)
+}
