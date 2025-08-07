@@ -25,5 +25,5 @@ func main() {
 	fmt.Printf("value: %f, type %T \n", myFloat, myFloat)
 	fmt.Printf("value: %d, type %T \n", myInt, myInt)
 	fmt.Printf("Signet Integer (int): %d, type %T \n", myInt32, myInt32)
-	fmt.Printf("value: %v, type %T \n", isActive, isActive)
+	fmt.Printf("value: %v, type %T \n", "isActive", isActive)
 }
