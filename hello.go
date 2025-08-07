@@ -14,5 +14,6 @@ func main() {
 	fmt.Print(a, b, c, d)
 	fmt.Println()
 	fmt.Println(companyName, " ", yearEstablished)
-	fmt.Printf("Hello %s, \n welcome to %s \n in year %d !", name, companyName, yearEstablished)
+	fmt.Printf("Hello %s, \n welcome to %s \n in year %d ! \n", name, companyName, yearEstablished)
+	fmt.Printf("value: %s, type %T", companyName, companyName)
 }
