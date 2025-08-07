@@ -19,7 +19,7 @@ func main() {
 	fmt.Printf("Hello %s, \n welcome to %s \n in year %d ! \n", name, companyName, yearEstablished)
 	fmt.Printf("value: %s, type %T", companyName, companyName)
 	fmt.Printf("value: %d, type %T", yearEstablished, yearEstablished)
-	fmt.Printf("value: %s, type %T", name, name)
-	fmt.Printf("value: %d, type %T", myFloat, myFloat)
-	fmt.Printf("value: %d, type %T", myInt, myInt)
+	fmt.Printf("value: %s, type %T \n", name, name)
+	fmt.Printf("value: %f, type %T \n", myFloat, myFloat)
+	fmt.Printf("value: %d, type %T \n", myInt, myInt)
 }
